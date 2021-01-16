@@ -48,7 +48,7 @@ printf "\nError Occured " >&2
 
 printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debian Linux And Paste Down\n'
 
-read -p "Paste Here: " CRP
+read -p "Paste Here: " CRP = test
 
 su - ALOK -c """$CRP"""
 
